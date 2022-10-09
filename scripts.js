@@ -49,7 +49,7 @@ app.appendChild(container);
 //   }
 // }
 
-getDataAxios();
+// getDataAxios();
 
 async function getData() {
   const response = await fetch("https://ghibliapi.herokuapp.com/films");
